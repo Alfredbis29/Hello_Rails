@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 ENV['RAILS_ENV'] ||= 'test'
+require 'capybara/rails'
 require_relative '../config/environment'
 require 'rails/test_help'
 
